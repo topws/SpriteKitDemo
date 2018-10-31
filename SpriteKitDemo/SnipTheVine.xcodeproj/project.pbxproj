@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		175512CC1E290767008D8076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175512CB1E290767008D8076 /* AppDelegate.swift */; };
+		175512D21E290767008D8076 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175512D11E290767008D8076 /* GameScene.swift */; };
+		175512D41E290767008D8076 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175512D31E290767008D8076 /* GameViewController.swift */; };
+		175512D71E290767008D8076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175512D51E290767008D8076 /* Main.storyboard */; };
+		175512D91E290767008D8076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175512D81E290767008D8076 /* Assets.xcassets */; };
+		175512DC1E290767008D8076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175512DA1E290767008D8076 /* LaunchScreen.storyboard */; };
+		175512EA1E290935008D8076 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175512E91E290935008D8076 /* Constants.swift */; };
+		175512EC1E290969008D8076 /* VineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175512EB1E290969008D8076 /* VineNode.swift */; };
+		175512F01E2909CD008D8076 /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 175512ED1E2909CD008D8076 /* Particle.png */; };
+		175512F11E2909CD008D8076 /* Particle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 175512EE1E2909CD008D8076 /* Particle.sks */; };
+		175512F21E2909CD008D8076 /* Particle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 175512EF1E2909CD008D8076 /* Particle@2x.png */; };
+		175512F71E2909E7008D8076 /* CheeZeeJungle.caf in Resources */ = {isa = PBXBuildFile; fileRef = 175512F31E2909E7008D8076 /* CheeZeeJungle.caf */; };
+		175512F81E2909E7008D8076 /* NomNom.caf in Resources */ = {isa = PBXBuildFile; fileRef = 175512F41E2909E7008D8076 /* NomNom.caf */; };
+		175512F91E2909E7008D8076 /* Slice.caf in Resources */ = {isa = PBXBuildFile; fileRef = 175512F51E2909E7008D8076 /* Slice.caf */; };
+		175512FA1E2909E7008D8076 /* Splash.caf in Resources */ = {isa = PBXBuildFile; fileRef = 175512F61E2909E7008D8076 /* Splash.caf */; };
+		175512FC1E290A36008D8076 /* VineData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 175512FB1E290A36008D8076 /* VineData.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		175512C81E290767008D8076 /* SnipTheVine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnipTheVine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		175512CB1E290767008D8076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		175512D11E290767008D8076 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		175512D31E290767008D8076 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		175512D61E290767008D8076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		175512D81E290767008D8076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		175512DB1E290767008D8076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		175512DD1E290767008D8076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175512E91E290935008D8076 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		175512EB1E290969008D8076 /* VineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VineNode.swift; sourceTree = "<group>"; };
+		175512ED1E2909CD008D8076 /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
+		175512EE1E2909CD008D8076 /* Particle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Particle.sks; sourceTree = "<group>"; };
+		175512EF1E2909CD008D8076 /* Particle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Particle@2x.png"; sourceTree = "<group>"; };
+		175512F31E2909E7008D8076 /* CheeZeeJungle.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CheeZeeJungle.caf; sourceTree = "<group>"; };
+		175512F41E2909E7008D8076 /* NomNom.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NomNom.caf; sourceTree = "<group>"; };
+		175512F51E2909E7008D8076 /* Slice.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Slice.caf; sourceTree = "<group>"; };
+		175512F61E2909E7008D8076 /* Splash.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Splash.caf; sourceTree = "<group>"; };
+		175512FB1E290A36008D8076 /* VineData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VineData.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		175512C51E290767008D8076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175512BF1E290767008D8076 = {
+			isa = PBXGroup;
+			children = (
+				175512CA1E290767008D8076 /* SnipTheVine */,
+				175512C91E290767008D8076 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		175512C91E290767008D8076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				175512C81E290767008D8076 /* SnipTheVine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		175512CA1E290767008D8076 /* SnipTheVine */ = {
+			isa = PBXGroup;
+			children = (
+				175512E31E2908B4008D8076 /* Classes */,
+				175512E41E2908BE008D8076 /* Supporting Files */,
+				175512E51E2908CD008D8076 /* Resources */,
+				175512D81E290767008D8076 /* Assets.xcassets */,
+				175512DA1E290767008D8076 /* LaunchScreen.storyboard */,
+			);
+			path = SnipTheVine;
+			sourceTree = "<group>";
+		};
+		175512E31E2908B4008D8076 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				175512E91E290935008D8076 /* Constants.swift */,
+				175512CB1E290767008D8076 /* AppDelegate.swift */,
+				175512D31E290767008D8076 /* GameViewController.swift */,
+				175512D11E290767008D8076 /* GameScene.swift */,
+				175512EB1E290969008D8076 /* VineNode.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		175512E41E2908BE008D8076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				175512D51E290767008D8076 /* Main.storyboard */,
+				175512DD1E290767008D8076 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		175512E51E2908CD008D8076 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				175512E61E2908E4008D8076 /* Particles */,
+				175512E71E2908EE008D8076 /* Sounds */,
+				175512E81E2908F5008D8076 /* Data */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		175512E61E2908E4008D8076 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				175512ED1E2909CD008D8076 /* Particle.png */,
+				175512EE1E2909CD008D8076 /* Particle.sks */,
+				175512EF1E2909CD008D8076 /* Particle@2x.png */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
+		175512E71E2908EE008D8076 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				175512F31E2909E7008D8076 /* CheeZeeJungle.caf */,
+				175512F41E2909E7008D8076 /* NomNom.caf */,
+				175512F51E2909E7008D8076 /* Slice.caf */,
+				175512F61E2909E7008D8076 /* Splash.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		175512E81E2908F5008D8076 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				175512FB1E290A36008D8076 /* VineData.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		175512C71E290767008D8076 /* SnipTheVine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 175512E01E290767008D8076 /* Build configuration list for PBXNativeTarget "SnipTheVine" */;
+			buildPhases = (
+				175512C41E290767008D8076 /* Sources */,
+				175512C51E290767008D8076 /* Frameworks */,
+				175512C61E290767008D8076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnipTheVine;
+			productName = SnipTheVine;
+			productReference = 175512C81E290767008D8076 /* SnipTheVine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		175512C01E290767008D8076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					175512C71E290767008D8076 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SSJK4DGTL7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 175512C31E290767008D8076 /* Build configuration list for PBXProject "SnipTheVine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 175512BF1E290767008D8076;
+			productRefGroup = 175512C91E290767008D8076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				175512C71E290767008D8076 /* SnipTheVine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		175512C61E290767008D8076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175512F81E2909E7008D8076 /* NomNom.caf in Resources */,
+				175512F21E2909CD008D8076 /* Particle@2x.png in Resources */,
+				175512F11E2909CD008D8076 /* Particle.sks in Resources */,
+				175512F91E2909E7008D8076 /* Slice.caf in Resources */,
+				175512D71E290767008D8076 /* Main.storyboard in Resources */,
+				175512FA1E2909E7008D8076 /* Splash.caf in Resources */,
+				175512F01E2909CD008D8076 /* Particle.png in Resources */,
+				175512D91E290767008D8076 /* Assets.xcassets in Resources */,
+				175512DC1E290767008D8076 /* LaunchScreen.storyboard in Resources */,
+				175512FC1E290A36008D8076 /* VineData.plist in Resources */,
+				175512F71E2909E7008D8076 /* CheeZeeJungle.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		175512C41E290767008D8076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175512D21E290767008D8076 /* GameScene.swift in Sources */,
+				175512D41E290767008D8076 /* GameViewController.swift in Sources */,
+				175512CC1E290767008D8076 /* AppDelegate.swift in Sources */,
+				175512EA1E290935008D8076 /* Constants.swift in Sources */,
+				175512EC1E290969008D8076 /* VineNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		175512D51E290767008D8076 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175512D61E290767008D8076 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		175512DA1E290767008D8076 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175512DB1E290767008D8076 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		175512DE1E290767008D8076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		175512DF1E290767008D8076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		175512E11E290767008D8076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SSJK4DGTL7;
+				INFOPLIST_FILE = SnipTheVine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.SnipVine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		175512E21E290767008D8076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SSJK4DGTL7;
+				INFOPLIST_FILE = SnipTheVine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.SnipVine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		175512C31E290767008D8076 /* Build configuration list for PBXProject "SnipTheVine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175512DE1E290767008D8076 /* Debug */,
+				175512DF1E290767008D8076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		175512E01E290767008D8076 /* Build configuration list for PBXNativeTarget "SnipTheVine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175512E11E290767008D8076 /* Debug */,
+				175512E21E290767008D8076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 175512C01E290767008D8076 /* Project object */;
+}
